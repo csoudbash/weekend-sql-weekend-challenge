@@ -1,0 +1,25 @@
+{
+  "name": "weekend-sql-weekend-challenge",
+  "version": "1.0.0",
+  "description": "[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csoudbash/weekend-sql-weekend-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csoudbash/weekend-sql-weekend-challenge/issues"
+  },
+  "homepage": "https://github.com/csoudbash/weekend-sql-weekend-challenge#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "pg": "^8.7.3"
+  }
+}
