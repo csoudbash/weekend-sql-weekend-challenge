@@ -1,7 +1,7 @@
 CREATE TABLE "to-do-list" (
 	"id" SERIAL PRIMARY KEY,
 	"task" VARCHAR(255),
-	"date-added" DATE,
+	"date" VARCHAR(50),
 	"is-complete" BOOLEAN DEFAULT FALSE
 );
 
