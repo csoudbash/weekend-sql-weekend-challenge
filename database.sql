@@ -9,4 +9,6 @@ CREATE TABLE "to-do-list" (
 
 // sample data 
 INSERT INTO "to-do-list"("task", "description", "date", "isComplete") VALUES
-('grab groceries','thing','1/1/2020','false'),
+('grab groceries','thing','1/1/2022','false'),
+('laundry','things','1/12/2022','false'),
+('walk dog', 'thing','12/1/2022' ,'false');
