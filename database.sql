@@ -3,11 +3,11 @@ CREATE TABLE "to-do-list" (
 	"task" VARCHAR(255),
 	"description" VARCHAR(255),
 	"date" VARCHAR(50),
-	"is-complete" BOOLEAN DEFAULT FALSE
+	"isComplete" BOOLEAN DEFAULT FALSE
 );
 
 
 // sample data 
-INSERT INTO "to-do-list"("task", "description", "date", "is-complete") VALUES
+INSERT INTO "to-do-list"("task", "description", "date", "isComplete") VALUES
 ('grab groceries','thing','1/1/2020','false'),
 ('laundry','things','112020','false');
