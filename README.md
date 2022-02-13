@@ -10,7 +10,8 @@ This is a website that acts as a To Do List. You can add any task you would like
 ## Screen Shot
 
 Include one or two screen shots of your project here (optional). Remove if unused.
-```function updateTask() {
+
+`function updateTask() {
     let taskData = $(this).closest('tr').data().iscomplete;
     let taskId = $(this).closest('tr').data().id;
     // let closestTr = $(this).closest('tr');
@@ -28,7 +29,8 @@ Include one or two screen shots of your project here (optional). Remove if unuse
     }).catch(function(error){
         console.log('rut ro scoob', error);
     })
-}```
+}`
+
 ### Prerequisites
 
 Link to software that is required to install the app (e.g. node).
