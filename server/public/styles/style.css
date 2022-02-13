@@ -1,3 +1,18 @@
+
+body{
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: cursive;
+}
+table{
+    margin: auto;
+}
+
+th, tr, td{
+    padding: 5px;
+    
+}
+
 .turnGreen{
     background-color: green;
 }

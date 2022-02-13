@@ -87,37 +87,17 @@ function renderToDom(tasks) {
         if (task.isComplete === true){
             color =  "green";
         }
-        if (task.isComplete === false) {
-            color =  "red";
-        }
+        
         $('#tasks').append(`
         <tr style= "background-color:${color}" data-id = ${task.id} data-iscomplete= ${task.isComplete}>
         <td>${task.task}</td>
         <td>${task.description}</td>
         <td>${task.date}</td>
-        <td><button class="task-done">Done</button></td>
+        <td><button class="task-done">Complete</button></td>
         <td><button class="btn-delete" data-id=${task.id} >Delete</button></td>
         </tr>
         `)
-    //     if (task.isComplete === true){
-    //        style = "color: green"
-    //    }
-    //    if (task.isComplete === false) {
-    //        style = "color: red"
-    //    }
     }
 }
 
-// function updateColor(tableRow, ) {
-//     console.log(tableRow);
-//     tableRow.addClass("turnRed")
-//     for (let task of tasks) {
-//             console.log(task.isComplete);
-//             if (task.isComplete === false) {
-//                 tableRow.addClass("turnRed")
-//             }
-//         }
-
-    // renderToDom();
-// }
 // ------------------- END HELPER FUNCTIONS ---------------
